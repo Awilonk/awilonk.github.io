@@ -7,4 +7,7 @@ main:
     url: "https://github.com/awilonk"
 
   - title: "CV"
-    url: "https://github.com/Awilonk/awilonk.github.io/tree/master/cv/cv-luyaokun-0514.pdf"
+    url: "/cv"
+
+  - title: "中文"
+    url: "/about-zh"

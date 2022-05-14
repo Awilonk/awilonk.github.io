@@ -11,22 +11,16 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Signal and Information Processing, UESTC, July 2019
+* B.S. in Optical Information Science and Technology, UESTC, June 2016
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Summer 2019 - Spring 2022: Senior Algorithm Engineer 
+  * DiDi-Global
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+
 Skills
 ======
 * Skill 1
