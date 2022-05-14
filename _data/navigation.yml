@@ -2,6 +2,9 @@
 main:
   - title: "About"
     url: /
-    
+
+  - title: "Github"
+    url: "https://github.com/awilonk"
+
   - title: "CV"
-    url: /cv/
+    url: "https://github.com/Awilonk/awilonk.github.io/tree/master/cv/cv-luyaokun-0514.pdf"

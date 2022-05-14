@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "YaokunLu"
+title                    : "Lu Yaokun"
 title_separator          : "-"
-name                     : &name "YaokunLu"
+name                     : &name "Lu Yaokun"
 description              : &description "personal description"
 url                      : https://awilonk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
