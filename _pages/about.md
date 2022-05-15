@@ -48,16 +48,19 @@ Industry-university-research transformation
 Gallery
 ======
 * Badminton robot playing with human  
-<video id="video" controls="" preload="none" poster="封面">
+<video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
       <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4">
-</videos>
+</videos>   
+
 * Tobacco planting manage system  
 ![avatar](files/Tobacco planting manage system.png)
+
+* UAV
 
 
 Skills
 ======
 * C++\Python\Scala
-* Tensorflow 
+* Tensorflow\Spark
 * OpenCV/ROS
 *	CET-6
