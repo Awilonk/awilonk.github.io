@@ -40,22 +40,9 @@ Work experience
   * Duties included: 
 
 
-Industry-university-research transformation
+Entrepreneurial experience
 ======
-
-
-
-Gallery
-======
-* Badminton robot playing with human  
-<video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
-      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4">
-</videos>   
-
-* Tobacco planting manage system  
-![avatar](files/Tobacco planting manage system.png)
-
-* UAV
+* 
 
 
 Skills
@@ -64,3 +51,15 @@ Skills
 * Tensorflow\Spark
 * OpenCV/ROS
 *	CET-6
+
+
+Gallery
+======
+* Tobacco planting manage system  
+![avatar](files/Tobacco planting manage system.png)  
+
+* UAV 
+* Badminton robot playing with human  
+<video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
+      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4">
+</videos>
