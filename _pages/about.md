@@ -23,14 +23,37 @@ at [IDIP-lab](https://idiplab.uestc.cn/) under the supervision of Prof. Peng Zhe
 
 * B.S. in Optical Information Science and Technology, UESTC, June 2016
 
-Work experience
+Discipline competitions 
 ======
-* Summer 2019 - Spring 2022: Senior Algorithm Engineer,DiDi Chuxing 
-  * Duties included: 
+* 2015 ABU Asia-Pacific Robot Contest(Robocon)
+* 2015 National Undergraduate Electronic Design Contest
+
 
 Publication
 ======
 [[1]卢耀坤. 复杂场景运动目标跟踪算法研究[D].电子科技大学,2019.](files/thesis-tracking.pdf)
+
+
+Work experience
+======
+* Summer 2019 - Summer 2022: Senior Algorithm Engineer,DiDi Chuxing 
+  * Duties included: 
+
+
+Industry-university-research transformation
+======
+
+
+
+Gallery
+======
+* Badminton robot playing with human  
+<video id="video" controls="" preload="none" poster="封面">
+      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4">
+</videos>
+* Tobacco planting manage system  
+![avatar](files/Tobacco planting manage system.png)
+
 
 Skills
 ======
@@ -38,12 +61,3 @@ Skills
 * Tensorflow 
 * OpenCV/ROS
 *	CET-6
-
-
-Gallery
-======
-
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4">
-</videos>
-
