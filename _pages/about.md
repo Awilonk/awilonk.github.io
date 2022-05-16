@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-  Hello,I am a graduate student of University of Electronic Science and Technology, majoring in signal and information processing, mainly focusing on visual target tracking. After my master's degree in 2019, I worked as a senior algorithm engineer at DiDi Chuxing. 
+  Hello,I am a graduate student of University of Electronic Science and Technology, majoring in signal and information processing, mainly focusing on visual target tracking. After my master's degree in 2019, I worked as a senior algorithm engineer at DiDi Chuxing. Click [cv](/cv) to know more detail of me.
  
   **<font color=red>I am currently looking for a Ph.D. position. Contact me if you are interested in supervising me!</font><br />**
 
@@ -25,8 +25,8 @@ at [IDIP-lab](https://idiplab.uestc.cn/) under the supervision of Prof. Peng Zhe
 
 Work experience
 ======
-*  2019.7 - 2022.4: Senior Algorithm Engineer, DiDi Chuxing 
-  * **ETA, Map team:** Make accurate arrival time predictions(ETAs) to calculate fares,estimate pickup times,mach riders to drivers,plan deliveries, and more.Which is the highest QPS model at DiDi.
+*  2019.7 - 2022.4: Senior Algorithm Engineer, DiDi Chuxing  
+   * **ETA, Map team:** Make accurate arrival time predictions(ETAs) to calculate fares,estimate pickup times,mach riders to drivers,plan deliveries, and more.Which is the highest QPS model at DiDi.
 * 2015.10 - 2016.4: Intern, DJI.
   *  **Flight control group:** Develop BSP and HAL layer code and adapt sensors such as barometer, IMU, and UWB. I am also involved in developing the open platform OnboardSDK.
 
