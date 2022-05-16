@@ -61,17 +61,19 @@ Skills
 
 Gallery
 ======
-* Image on 
-  * Tobacco planting manage system  
-  <img src="files/tobacco2.png" alt="drawing" width="500"/>
-
-  * Automatically tobacco Seedling quantity counting.  
-  <img src="files/tobacco_detect.png" alt="drawing" width="500"/>
-
-  * Almost the same as manual counting.  
-  <img src="files/tobacco_count.png" alt="drawing" width="500"/>
 
 * Badminton robot we build that can play well with humans.  
-<video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
-      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" alt="drawing" width="800">
-</videos>
+
+  <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
+        <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" width="800">
+  </videos>
+
+* Tobacco planting manage system  
+<img src="files/tobacco2.png" alt="drawing" width="500"/>
+
+* Automatically tobacco Seedling quantity counting.  
+<img src="files/tobacco_detect.png" alt="drawing" width="500"/>
+
+* Almost the same as manual counting.  
+<img src="files/tobacco_count.png" alt="drawing" width="500"/>
+
