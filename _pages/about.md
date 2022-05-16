@@ -31,6 +31,8 @@ Discipline competitions
 
 Publication
 ======
+Thesis
+
 [[1]卢耀坤. 复杂场景运动目标跟踪算法研究[D].电子科技大学,2019.](files/thesis-tracking.pdf)
 
 
@@ -56,10 +58,10 @@ Skills
 Gallery
 ======
 * Tobacco planting manage system  
-![avatar](files/tobacco.png)  
+<img src="files/tobacco.png" alt="drawing" width="500"/>
 
 * UAV 
 * Badminton robot playing with human  
 <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
-      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4">
+      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" alt="drawing" width="500">
 </videos>
