@@ -23,23 +23,25 @@ at [IDIP-lab](https://idiplab.uestc.cn/) under the supervision of Prof. Peng Zhe
 
 * B.S. in Optical Information Science and Technology, UESTC, June 2016
 
-Competitions 
-======
-* Champion on 2015 ABU Asia-Pacific Robot Contest(Robocon)  
-* Second prize on 2015 National Undergraduate Electronic Design Contest
-
-
-
-
 Work experience
 ======
-* Summer 2019 - Summer 2022: Senior Algorithm Engineer,DiDi Chuxing 
-  * ETA, Map Team: Make accurate arrival time predictions(ETAs) to calculate fares,estimate pickup times,mach riders to drivers,plan deliveries, and more.Which is the highest QPS model at DiDi.
+*  2019.7 - 2022.4: Senior Algorithm Engineer, DiDi Chuxing 
+  * **ETA, Map team:** Make accurate arrival time predictions(ETAs) to calculate fares,estimate pickup times,mach riders to drivers,plan deliveries, and more.Which is the highest QPS model at DiDi.
+* 2015.10 - 2016.4: Intern, DJI.
+  *  **Flight control group:** Develop BSP and HAL layer code and adapt sensors such as barometer, IMU, and UWB. I am also involved in developing the open platform OnboardSDK.
+
+Competitions 
+======
+* **Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)  
+* **Second prize** on 2015 National Undergraduate Electronic Design Contest
+
+
+
 
 
 Entrepreneurial experience
 ======
-* Founder of Yuanliu Automatic Co. Ltd.  
+* Founder of **Yuanliu Automatic Co. Ltd.**  
   * Uses tilt-rotor VTOL fixed-wing UAVs to collect aerial images of tobacco fields in mountainous areas of Guizhou.
   * Automatically tobacco Seedling detects algorithm for quantity counting. 
   * System has been launched into production.
