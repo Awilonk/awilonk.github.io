@@ -13,7 +13,7 @@ redirect_from:
 
 Research interests
 ======
-My research interests focus on Robotics, Computer Vision, Control Theory, and UAVs.
+My research interests focus on Robotics Perception, Computer Vision, Control Theory, and UAVs.
 
 
 Education
