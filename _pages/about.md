@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-  I am a graduate student of University of Electronic Science and Technology, majoring in signal and information processing, mainly focusing on visual target tracking. After my master's degree in 2019, I worked as a senior algorithm engineer at DiDi Chuxing. 
+  Hello,I am a graduate student of University of Electronic Science and Technology, majoring in signal and information processing, mainly focusing on visual target tracking. After my master's degree in 2019, I worked as a senior algorithm engineer at DiDi Chuxing. 
  
   **<font color=red>I am currently looking for a Ph.D. position. Contact me if you are interested in supervising me!</font><br />**
 
@@ -23,17 +23,12 @@ at [IDIP-lab](https://idiplab.uestc.cn/) under the supervision of Prof. Peng Zhe
 
 * B.S. in Optical Information Science and Technology, UESTC, June 2016
 
-Discipline competitions 
+Competitions 
 ======
 * Champion on 2015 ABU Asia-Pacific Robot Contest(Robocon)  
 * Second prize on 2015 National Undergraduate Electronic Design Contest
 
 
-Publication
-======
-Thesis
-
-[[1]卢耀坤. 复杂场景运动目标跟踪算法研究[D].电子科技大学,2019.](files/thesis-tracking.pdf)
 
 
 Work experience
@@ -49,6 +44,13 @@ Entrepreneurial experience
   * Automatically tobacco Seedling detects algorithm for quantity counting. 
   * System has been launched into production.
 
+Publication
+======
+Thesis
+
+[[1]卢耀坤. 复杂场景运动目标跟踪算法研究[D].电子科技大学,2019.](files/thesis-tracking.pdf)
+
+
 Skills
 ======
 * C++\Python\Scala
@@ -59,17 +61,17 @@ Skills
 
 Gallery
 ======
-* Tobacco planting manage system  
-<img src="files/tobacco2.png" alt="drawing" width="400"/>
+* Image on 
+  * Tobacco planting manage system  
+  <img src="files/tobacco2.png" alt="drawing" width="500"/>
 
-* Automatically tobacco Seedling quantity counting.  
-<img src="files/tobacco_detect.png" alt="drawing" width="400"/>
+  * Automatically tobacco Seedling quantity counting.  
+  <img src="files/tobacco_detect.png" alt="drawing" width="500"/>
 
-* Almost the same as manual counting.  
-<img src="files/tobacco_count.png" alt="drawing" width="400"/>
+  * Almost the same as manual counting.  
+  <img src="files/tobacco_count.png" alt="drawing" width="500"/>
 
-
-* Badminton robot playing with human  
+* Badminton robot we build that can play well with humans.  
 <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
-      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" alt="drawing" width="500">
+      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" alt="drawing" width="800">
 </videos>
