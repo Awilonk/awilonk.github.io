@@ -49,14 +49,14 @@ Skills
 ======
 * C++\Python\Scala
 * Tensorflow\Spark
-* OpenCV/ROS
+* OpenCV\ROS
 *	CET-6
 
 
 Gallery
 ======
 * Tobacco planting manage system  
-![avatar](files/Tobacco planting manage system.png)  
+![avatar](files/tobacco.png)  
 
 * UAV 
 * Badminton robot playing with human  
