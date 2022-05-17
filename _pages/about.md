@@ -11,7 +11,7 @@ redirect_from:
  
   **<font color=red>I am currently looking for a Ph.D. position. Contact me if you are interested in supervising me!</font><br />**
 
-  Click [cv](/cv) to know more detail of me.
+  Click [CV](/cv) to know more detail of me.
 
 
 Research interests
