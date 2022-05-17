@@ -7,6 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3e3ac010d74e14b7ea608faa27aacc7d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
   Hello,I am a graduate student of University of Electronic Science and Technology, majoring in signal and information processing, mainly focusing on visual target tracking. After my master's degree in 2019, I worked as a senior algorithm engineer at DiDi Chuxing.  
  
   **<font color=red>I am currently looking for a Ph.D. position. Contact me if you are interested in supervising me!</font><br />**
@@ -39,8 +49,6 @@ Competitions
 ======
 * **Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)  
 * **Second prize** on 2015 National Undergraduate Electronic Design Contest
-
-
 
 
 
