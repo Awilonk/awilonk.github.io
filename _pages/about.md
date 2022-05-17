@@ -48,7 +48,7 @@ at [IDIP-lab](https://idiplab.uestc.cn/) under the supervision of Prof. Peng Zhe
 
 Work experience
 ======
-*  2019.7 - 2022.4: Senior Algorithm Engineer, DiDi Chuxing  
+*  2019.7 - 2022.4: Senior ML Engineer, DiDi Chuxing  
    * **ETA, Map team:** Make accurate arrival time predictions(ETAs) to calculate fares,estimate pickup times,mach riders to drivers,plan deliveries, and more.Which is the highest QPS model at DiDi.
    * **Related Paper:** Wang, Zheng, Kun Fu, and Jieping Ye. "Learning to estimate the travel time." In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 858-866. 2018.
 
