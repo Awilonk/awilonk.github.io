@@ -57,8 +57,8 @@ Work experience
 
 Competitions 
 ======
-* **Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)  
-* **Second prize** on 2015 National Undergraduate Electronic Design Contest
+* **National Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)  
+* **National Second prize** on 2015 National Undergraduate Electronic Design Contest
 
 
 
