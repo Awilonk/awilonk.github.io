@@ -7,6 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -72,7 +74,6 @@ Innovation Startup
   * Automatically tobacco Seedling quantity counting.  
 
   * Almost the same as manual counting.  
-  
   <div class="w3-content w3-display-container">
   <img class="mySlides" src="files/tobacco_detect.png" style="width:700; height:500px;">
   <img class="mySlides" src="files/tobacco2.png" style="width:700; height:500px;">
