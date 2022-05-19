@@ -91,10 +91,16 @@ Innovation Startup
     Almost the same as manual counting. 
   </div>
 
+   <img class="mySlides" src="files/UAV_takeoff.mp4" style="width:600px; height:500px;">
+    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Our first test tilt-rotor STOL airplane take off in campus. 
+  </div>
+
   <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:500px;">
-  <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
-          <source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="500px" width="600px">
-    </videos>
+   <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Company got certified  "Certificate of conformity of high and new-tech enterprise. 
+  </div>
+  
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
@@ -118,7 +124,9 @@ Innovation Startup
     x[slideIndex-1].style.display = "block";  
   }
   </script>
-
+<video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
+          <source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="400px" width="500px">
+    </videos>
 
 Competitions 
 ======
@@ -130,8 +138,10 @@ Competitions
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
-  <img class="mySlides" src="files/UAV-2015.jpg" style="width:600px; height:500px;">
-
+  <img class="mySlides" src="files/UAV-2015.jpg" style="width:400px; height:500px;">
+ <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    UAV completed the tasks of fixed-point take-off and landing, picking up items, and line patrol.
+  </div>
 Publication
 ======
 Thesis
