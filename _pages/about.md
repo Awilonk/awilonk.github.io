@@ -62,7 +62,6 @@ Innovation Startup
   * Uses tilt-rotor VTOL fixed-wing UAVs to collect aerial images of tobacco fields in mountainous areas of Guizhou.
   * Automatically tobacco Seedling detects algorithm for quantity counting. 
   * System has been launched into production.
-  * The annual revenue of 2021 breaks ¥2,000,000!
 
 * Certification 
   * Company got certified  "Certificate of conformity of high and new-tech enterprise" (Issued by Science and Technology Department of Sichuan Province)
@@ -76,7 +75,34 @@ Innovation Startup
 
   * Almost the same as manual counting.  
   <img src="files/tobacco_count.png" alt="drawing" width="500"/>
+  
+  <div class="w3-content w3-display-container">
+  <img class="mySlides" src="files/tobacco_detect.png" style="width:100%">
+  <img class="mySlides" src="files/tobacco2.png" style="width:100%">
+  <img class="mySlides" src="files/tobacco_count.png" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
 
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
 
 
 Competitions 
