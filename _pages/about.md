@@ -73,7 +73,7 @@ Publication
 ======
 Thesis
 
-[1]卢耀坤. 复杂场景运动目标跟踪算法研究[D].电子科技大学,2019.[brief](files/brief-of-dissertation.pdf)[pdf](files/thesis-tracking.pdf)
+[1]卢耀坤. 复杂场景运动目标跟踪算法研究[D].电子科技大学,2019.  [[brief]](files/brief-of-dissertation.pdf)  [[pdf]](files/thesis-tracking.pdf)
 
 
 Skills
