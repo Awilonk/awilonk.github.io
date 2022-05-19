@@ -75,9 +75,12 @@ Innovation Startup
 
   * Almost the same as manual counting.  
   <div class="w3-content w3-display-container">
-  <img class="mySlides" src="files/tobacco_detect.png" style="width:700; height:500px;">
-  <img class="mySlides" src="files/tobacco2.png" style="width:700; height:500px;">
-  <img class="mySlides" src="files/tobacco_count.png" style="width:700; height:500px;">
+  <img class="mySlides" src="files/tobacco_detect.png" style="width:600px; height:500px;">
+  <img class="mySlides" src="files/tobacco2.png" style="width:600px; height:500px;">
+  <img class="mySlides" src="files/tobacco_count.png" style="width:600px; height:500px;">
+  <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
+          <source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="500px" width="600px">
+    </videos>
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
@@ -109,7 +112,7 @@ Competitions
   * Badminton robot we build that can play well with humans.  
 
   <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
-        <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" width="800">
+        <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" height="500px" width="700px">
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
