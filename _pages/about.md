@@ -68,18 +68,15 @@ Innovation Startup
 
 * Fields of Bussiness
   * Tobacco planting manage system  
-  <img src="files/tobacco2.png" alt="drawing" width="500"/>
 
   * Automatically tobacco Seedling quantity counting.  
-  <img src="files/tobacco_detect.png" alt="drawing" width="500"/>
 
   * Almost the same as manual counting.  
-  <img src="files/tobacco_count.png" alt="drawing" width="500"/>
   
   <div class="w3-content w3-display-container">
-  <img class="mySlides" src="files/tobacco_detect.png" style="width:100%">
-  <img class="mySlides" src="files/tobacco2.png" style="width:100%">
-  <img class="mySlides" src="files/tobacco_count.png" style="width:100%">
+  <img class="mySlides" src="files/tobacco_detect.png" style="width:700; height:500px;">
+  <img class="mySlides" src="files/tobacco2.png" style="width:700; height:500px;">
+  <img class="mySlides" src="files/tobacco_count.png" style="width:700; height:500px;">
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
