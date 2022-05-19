@@ -78,6 +78,7 @@ Innovation Startup
   <img class="mySlides" src="files/tobacco_detect.png" style="width:600px; height:500px;">
   <img class="mySlides" src="files/tobacco2.png" style="width:600px; height:500px;">
   <img class="mySlides" src="files/tobacco_count.png" style="width:600px; height:500px;">
+  <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:500px;">
   <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
           <source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="500px" width="600px">
     </videos>
