@@ -36,7 +36,7 @@ var _hmt = _hmt || [];
 
 Research interests
 ======
-My research interests focus on Robotics, Computer Vision, Control Theory, and UAVs.
+My research interests focus on Robotics, Computer Vision, and UAVs.
 
 
 Education
