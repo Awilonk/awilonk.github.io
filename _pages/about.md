@@ -55,19 +55,41 @@ Work experience
 * 2015.10 - 2016.4: Intern, DJI.
   *  **Flight control group:** Develop BSP and HAL layer code and adapt sensors such as barometer, IMU, and UWB. I am also involved in developing the open platform OnboardSDK.
 
-Competitions 
-======
-* **National Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)  
-* **National Second prize** on 2015 National Undergraduate Electronic Design Contest
 
-
-
-Entrepreneurial experience
+Innovation Startup
 ======
 * Founder of **Yuanliu Automatic Co. Ltd.**  
   * Uses tilt-rotor VTOL fixed-wing UAVs to collect aerial images of tobacco fields in mountainous areas of Guizhou.
   * Automatically tobacco Seedling detects algorithm for quantity counting. 
   * System has been launched into production.
+  * The annual revenue of 2021 breaks ¥2,000,000!
+
+* Certification 
+  * Company got certified  "Certificate of conformity of high and new-tech enterprise" (Issued by Science and Technology Department of Sichuan Province)
+
+* Fields of Bussiness
+  * Tobacco planting manage system  
+  <img src="files/tobacco2.png" alt="drawing" width="500"/>
+
+  * Automatically tobacco Seedling quantity counting.  
+  <img src="files/tobacco_detect.png" alt="drawing" width="500"/>
+
+  * Almost the same as manual counting.  
+  <img src="files/tobacco_count.png" alt="drawing" width="500"/>
+
+
+
+Competitions 
+======
+* **National Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)    
+  * Badminton robot we build that can play well with humans.  
+
+  <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
+        <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" width="800">
+  </videos>
+
+* **National Second prize** on 2015 National Undergraduate Electronic Design Contest
+
 
 Publication
 ======
@@ -82,23 +104,3 @@ Skills
 * Tensorflow\Spark
 * OpenCV\ROS
 *	CET-6
-
-
-Gallery
-======
-
-* Badminton robot we build that can play well with humans.  
-
-  <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
-        <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" width="800">
-  </videos>
-
-* Tobacco planting manage system  
-<img src="files/tobacco2.png" alt="drawing" width="500"/>
-
-* Automatically tobacco Seedling quantity counting.  
-<img src="files/tobacco_detect.png" alt="drawing" width="500"/>
-
-* Almost the same as manual counting.  
-<img src="files/tobacco_count.png" alt="drawing" width="500"/>
-
