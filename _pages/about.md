@@ -75,9 +75,22 @@ Innovation Startup
 
   * Almost the same as manual counting.  
   <div class="w3-content w3-display-container">
-  <img class="mySlides" src="files/tobacco_detect.png" style="width:600px; height:500px;">
+  
   <img class="mySlides" src="files/tobacco2.png" style="width:600px; height:500px;">
+  <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Tobacco planting manage system. 
+  </div>
+
+  <img class="mySlides" src="files/tobacco_detect.png" style="width:600px; height:500px;">
+  <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Automatically tobacco detect. 
+  </div>
+  
   <img class="mySlides" src="files/tobacco_count.png" style="width:600px; height:500px;">
+    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Almost the same as manual counting. 
+  </div>
+
   <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:500px;">
   <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
           <source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="500px" width="600px">
