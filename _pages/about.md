@@ -130,7 +130,7 @@ Competitions
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
-
+  <img class="mySlides" src="files/UAV-2015.jpg" style="width:600px; height:500px;">
 
 Publication
 ======
