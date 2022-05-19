@@ -76,27 +76,27 @@ Innovation Startup
   * Almost the same as manual counting.  
   <div class="w3-content w3-display-container">
   
-  <img class="mySlides" src="files/tobacco2.png" style="width:600px; height:500px;">
+  <img class="mySlides" src="files/tobacco2.png" style="width:600px; height:400px;">
   <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     Tobacco planting manage system. 
   </div>
 
-  <img class="mySlides" src="files/tobacco_detect.png" style="width:600px; height:500px;">
+  <img class="mySlides" src="files/tobacco_detect.png" style="width:600px; height:400px;">
   <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     Automatically tobacco detect. 
   </div>
   
-  <img class="mySlides" src="files/tobacco_count.png" style="width:600px; height:500px;">
+  <img class="mySlides" src="files/tobacco_count.png" style="width:600px; height:400px;">
     <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     Almost the same as manual counting. 
   </div>
 
-   <img class="mySlides" src="files/UAV_takeoff.mp4" style="width:600px; height:500px;">
+   <img class="mySlides" src="files/UAV_takeoff.mp4" style="width:600px; height:400px;">
     <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     Our first test tilt-rotor STOL airplane take off in campus. 
   </div>
 
-  <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:500px;">
+  <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:400px;">
    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     Company got certified  "Certificate of conformity of high and new-tech enterprise. 
   </div>
@@ -125,7 +125,7 @@ Innovation Startup
   }
   </script>
 <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
-          <source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="400px" width="500px">
+          <source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="400px" width="600px">
     </videos>
 
 Competitions 
@@ -138,7 +138,7 @@ Competitions
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
-  <img class="mySlides" src="files/UAV-2015.jpg" style="width:400px; height:500px;">
+  <img class="mySlides" src="files/UAV-2015.jpg" style="width:600px; height:400px;">
  <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     UAV completed the tasks of fixed-point take-off and landing, picking up items, and line patrol.
   </div>
