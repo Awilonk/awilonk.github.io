@@ -43,8 +43,7 @@ My research interests focus on Robotics, Computer Vision, and UAVs.
 
 Education
 ======
-* M.S. in Signal and Information Processing, UESTC, July 2019  
-at [IDIP-lab](https://idiplab.uestc.cn/) under the supervision of Prof. Peng Zhenming.
+* M.S. in Signal and Information Processing, UESTC, July 2019 at [IDIP-lab](https://idiplab.uestc.cn/) under the supervision of Prof. Peng Zhenming.
 
 * B.S. in Optical Information Science and Technology, UESTC, June 2016
 
@@ -74,28 +73,28 @@ Innovation Startup
   * Automatically tobacco Seedling quantity counting.  
 
   * Almost the same as manual counting.  
-<div class="w3-content w3-display-container" style="max-width:600px;">
+<div class="w3-content w3-display-container" style="max-width:600px;max-height:400px;">
    <!-- Slideshow -->
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/tobacco2.png" style="width:600px; height:400px;">
+      <img class="mySlides" src="files/tobacco2.png"  style="width:100%;height:100%">
   <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
          Tobacco planting manage system. 
       </div>
    </div>
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/tobacco_detect.png" style="width:600px; height:400px;">
+      <img class="mySlides" src="files/tobacco_detect.png" style="width:100%;height:100%">
   <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
          Automatically tobacco detect. 
       </div>
    </div>
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/tobacco_count.png" style="width:600px; height:400px;">
+      <img class="mySlides" src="files/tobacco_count.png" style="width:100%;height:100%">
   <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
          Almost the same as manual counting. 
       </div>
    </div>
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:400px;">
+      <img class="mySlides" src="files/YL-certifi.jpg" style="width:100%;height:100%">
   <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
          Company got certified  "Certificate of conformity of high and new-tech enterprise. 
       </div>
