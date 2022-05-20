@@ -95,7 +95,7 @@ Innovation Startup
         <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
           Our first prototype tilt-rotor STOL airplane. 
     </div>
-    
+
    <div class="w3-display-container mySlides2">
       <img  src="files/tobacco2.png"  style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
@@ -166,7 +166,7 @@ Competitions
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
-  <img src="files/UAV-2015.jpg" style="width:600px; height:400px;">
+  <img src="files/UAV-2015.jpg" style="width:500px; height:300px;">
  <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     UAV completed the tasks of fixed-point take-off and landing, picking up items, and line patrol.
   </div>  
