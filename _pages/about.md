@@ -98,7 +98,14 @@ Innovation Startup
    </div>
 
    <div class="w3-display-container mySlides2">
-      <video id="video2" class="mySlides" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
+      <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:400px;">
+      <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+         Company got certified  "Certificate of conformity of high and new-tech enterprise. 
+      </div>
+   </div>
+
+  <div class="w3-display-container mySlides2">
+      <video id="video2" class="mySlides" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg" width="600px" height="400px">
         <source src="files/UAV_takeoff.mp4" type="video/mp4">
       </video>
       <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
@@ -107,12 +114,6 @@ Innovation Startup
    </div> 
 
 
-   <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:400px;">
-      <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-         Company got certified  "Certificate of conformity of high and new-tech enterprise. 
-      </div>
-   </div>
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
