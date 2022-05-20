@@ -75,29 +75,39 @@ Innovation Startup
   * Almost the same as manual counting.  
 <div class="w3-content w3-display-container" style="max-width:600px;max-height:400px;">
    <!-- Slideshow -->
+   <!-- 
+            Tobacco planting manage system. 
+         Automatically tobacco detect. 
+         Almost the same as manual counting. 
+         Company got certified  "Certificate of conformity of high and new-tech enterprise. 
+
+   --->
    <div class="w3-display-container mySlides2">
       <img class="mySlides" src="files/tobacco2.png"  style="width:100%;height:100%">
-  <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
-         Tobacco planting manage system. 
-      </div>
+        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+          Tobacco planting manage system.
+        </div>
    </div>
+
    <div class="w3-display-container mySlides2">
       <img class="mySlides" src="files/tobacco_detect.png" style="width:100%;height:100%">
-  <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
-         Automatically tobacco detect. 
-      </div>
+        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+            Automatically tobacco detect.
+        </div>
    </div>
+
    <div class="w3-display-container mySlides2">
       <img class="mySlides" src="files/tobacco_count.png" style="width:100%;height:100%">
-  <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
-         Almost the same as manual counting. 
-      </div>
+        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+            Almost the same as manual counting. 
+        </div>
    </div>
+
    <div class="w3-display-container mySlides2">
       <img class="mySlides" src="files/YL-certifi.jpg" style="width:100%;height:100%">
-  <div class="w3-display-middle w3-padding-large w3-xxlarge w3-container w3-black w3-text-white">
-         Company got certified  "Certificate of conformity of high and new-tech enterprise. 
-      </div>
+        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+          Company got certified  "Certificate of conformity of high and new-tech enterprise.
+        </div>
    </div>
     <!-- 
       <div class="w3-display-container mySlides2">
@@ -109,7 +119,6 @@ Innovation Startup
           </div>
       </div>
     -->
-
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     <div class="w3-center w3-display-bottommiddle" style="width:100%">
@@ -150,7 +159,7 @@ Competitions
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
-  <img class="mySlides" src="files/UAV-2015.jpg" style="width:600px; height:400px;">
+  <img src="files/UAV-2015.jpg" style="width:600px; height:400px;">
  <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     UAV completed the tasks of fixed-point take-off and landing, picking up items, and line patrol.
   </div>  
