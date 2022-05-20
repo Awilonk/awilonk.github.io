@@ -83,34 +83,34 @@ Innovation Startup
 
    --->
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/tobacco2.png"  style="width:600px;height:400px">
+      <img  src="files/tobacco2.png"  style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
           Tobacco planting manage system.
         </div>
    </div>
 
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/tobacco_detect.png" style="width:600px;height:400px">
+      <img  src="files/tobacco_detect.png" style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
             Automatically tobacco detect.
         </div>
    </div>
 
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/tobacco_count.png" style="width:600px;height:400px">
+      <img  src="files/tobacco_count.png" style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
             Almost the same as manual counting. 
         </div>
    </div> 
 
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px;height:400px">
+      <img  src="files/YL-certifi.jpg" style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
           Company got certified  "Certificate of conformity of high and new-tech enterprise.
         </div>
    </div>
     <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/YL-UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
+      <img  src="files/UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
           Our first prototype tilt-rotor STOL airplane. 
         </div>
@@ -136,7 +136,7 @@ Innovation Startup
    
    function showDivs(n) {
      var i;
-     var x = document.getElementsByClassName("mySlides");
+     var x = document.getElementsByClassName("mySlides2");
      if (n > x.length) {slideIndex = 1}
      if (n < 1) {slideIndex = x.length}
      for (i = 0; i < x.length; i++) {
