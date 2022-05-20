@@ -67,18 +67,14 @@ Innovation Startup
 * Certification 
   * Company got certified  "Certificate of conformity of high and new-tech enterprise" (Issued by Science and Technology Department of Sichuan Province)
 
-* Fields of Bussiness
-  * Tobacco planting manage system  
-
-  * Automatically tobacco Seedling quantity counting.  
-
-  * Almost the same as manual counting.  
+* Galley
 <div class="w3-content w3-display-container" style="max-width:600px;max-height:400px;">
    <!-- Slideshow -->
     <div class="w3-display-container mySlides2">
-          <video id="video2" controls="" preload="none" poster="files/VTOL_still.jpg" width="600px" height="400px">
-            <source id="mp4" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
-          </videos>
+      <img  src="files/VTOL_still.jpg" style="width:600px;height:400px">
+       <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+          VTOL planes in-service.
+        </div>
     </div>
    <div class="w3-display-container mySlides2">
       <img  src="files/tobacco2.png"  style="width:600px;height:400px">
@@ -124,6 +120,9 @@ Innovation Startup
     <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
   </div> 
+      <video id="video2" controls="" preload="none" poster="files/VTOL_still.jpg" width="600px" height="400px">
+      <source id="mp4" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
+    </videos>
 <script>
    var slideIndex = 1;
    showDivs(slideIndex);
