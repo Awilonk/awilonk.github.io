@@ -119,10 +119,7 @@ Innovation Startup
     <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
-  </div> 
-      <video id="video2" controls="" preload="none" poster="files/VTOL_still.jpg" width="600px" height="400px">
-      <source id="mp4" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
-    </videos>
+ 
 <script>
    var slideIndex = 1;
    showDivs(slideIndex);
@@ -142,7 +139,10 @@ Innovation Startup
      x[slideIndex-1].style.display = "block";  
    }
 </script>
-
+ </div> 
+      <video id="video2" controls="" preload="none" poster="files/VTOL_still.jpg" width="600px" height="400px">
+      <source id="mp4-2" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
+    </videos>
 
 Competitions 
 ======
@@ -150,7 +150,7 @@ Competitions
   * Badminton robot we build that can play well with humans.  
 
   <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg" width="600px" height="400px" autoplay muted>
-        <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" height="500px" width="700px">
+      <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" height="500px" width="700px">
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
