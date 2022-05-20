@@ -119,7 +119,8 @@ Innovation Startup
     <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
- 
+ </div>
+
 <script>
    var slideIndex = 1;
    showDivs(slideIndex);
@@ -138,9 +139,9 @@ Innovation Startup
      }
      x[slideIndex-1].style.display = "block";  
    }
-</script>
+</script>  
 
-
+  
 Competitions 
 ======
 * **National Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)    
