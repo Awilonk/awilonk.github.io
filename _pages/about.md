@@ -75,27 +75,12 @@ Innovation Startup
   * Almost the same as manual counting.  
 <div class="w3-content w3-display-container" style="max-width:600px;max-height:400px;">
    <!-- Slideshow -->
-   <!-- 
-            Tobacco planting manage system. 
-         Automatically tobacco detect. 
-         Almost the same as manual counting. 
-         Company got certified  "Certificate of conformity of high and new-tech enterprise. 
-
-   --->
-     </div>
-      <div class="w3-display-container mySlides2">
-      <img  src="files/VTOL_still.JPEG" style="width:600px;height:400px">
-        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-          VTOl plane in-service. 
-        </div>
-    </div>
-
-  <div class="w3-display-container mySlides2">
-      <img  src="files/UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
-        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-          Our first prototype tilt-rotor STOL airplane. 
-    </div>
-
+    <div class="w3-display-container mySlides2">
+          <img  src="files/VTOL_still.JPEG" style="width:600px;height:400px">
+            <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+              VTOl plane in-service. 
+            </div>
+      </div>
    <div class="w3-display-container mySlides2">
       <img  src="files/tobacco2.png"  style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
@@ -123,8 +108,13 @@ Innovation Startup
           Company got certified  "Certificate of conformity of high and new-tech enterprise.
         </div>
    </div>
-  
-  
+    <div class="w3-display-container mySlides2">
+      <img  src="files/UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+          Our first prototype tilt-rotor STOL airplane. 
+        </div>
+    </div>
+     
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
@@ -166,7 +156,7 @@ Competitions
   </videos>
 
 * **National Second prize** on 2015 National Undergraduate Electronic Design Contest
-  <img src="files/UAV-2015.jpg" style="width:500px; height:300px;">
+  <img src="files/UAV-2015.jpg" style="width:600px; height:400px;">
  <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     UAV completed the tasks of fixed-point take-off and landing, picking up items, and line patrol.
   </div>  
