@@ -110,19 +110,15 @@ Innovation Startup
         </div>
    </div>
     <div class="w3-display-container mySlides2">
-     <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg" width="600px" height="400px" autoplay muted>
-        <source id="mp4" src="files/UAV_takeoff.mp4" type="video/mp4" height="500px" width="700px">
-    </videos>
-      <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+      <img  src="files/UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
           Our first prototype tilt-rotor STOL airplane. 
         </div>
     </div>
-     <div class="w3-display-container mySlides2">
-     <video id="video3" controls="" preload="none" poster="files/VTOL_still.JPEG" width="600px" height="400px" autoplay muted>
-        <source id="mp4" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
-    </videos>
-      <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-          VTOL plane in-service. 
+      <div class="w3-display-container mySlides2">
+      <img  src="files/VTOL_still.JPEG" style="width:600px;height:400px">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+          VTOl plane in-service. 
         </div>
     </div>
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
