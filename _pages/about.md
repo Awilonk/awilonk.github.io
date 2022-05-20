@@ -126,7 +126,7 @@ Innovation Startup
     <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
-  </div>
+  </div> 
 </div>
 <script>
    var slideIndex = 1;
