@@ -50,7 +50,7 @@ Education
 Work experience
 ======
 *  2019.7 - 2022.4: Senior Machine Learning Engineer, DiDi Chuxing  
-   * **ETA, Map team:** Train ML\DL models to predict accurate arrival time (ETAs) to calculate fares, estimate pickup times, match riders to drivers, plan deliveries, and more. The ETA model's QPS is the highest at DiDi.
+   * **ETA, Map team:** Design ML\DL models to predict accurate arrival time (ETAs) to calculate fares, estimate pickup times, match riders to drivers, plan deliveries, and more. The ETA model's QPS is the highest at DiDi.
 
 
 * 2015.10 - 2016.4: Intern, DJI.
