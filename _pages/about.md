@@ -117,6 +117,7 @@ Innovation Startup
           Our first prototype tilt-rotor STOL airplane take off in campus. 
         </div>
     </div>
+    
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     <div class="w3-center w3-display-bottommiddle" style="width:100%">
@@ -124,6 +125,7 @@ Innovation Startup
     <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
   </div>
 </div>
 <script>
