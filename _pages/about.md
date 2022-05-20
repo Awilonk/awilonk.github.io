@@ -122,7 +122,7 @@ Innovation Startup
         <source id="mp4" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
     </videos>
       <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-          Our first prototype tilt-rotor STOL airplane. 
+          VTOL plane in-service. 
         </div>
     </div>
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
