@@ -139,8 +139,7 @@ Innovation Startup
      x[slideIndex-1].style.display = "block";  
    }
 </script>
- </div> 
-      <video id="video2" controls="" preload="none" poster="files/VTOL_still.jpg" width="600px" height="400px">
+  <video id="video2" controls="" preload="none" poster="files/VTOL_still.jpg" width="600px" height="400px">
       <source id="mp4-2" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
     </videos>
 
