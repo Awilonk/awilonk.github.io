@@ -76,10 +76,9 @@ Innovation Startup
 <div class="w3-content w3-display-container" style="max-width:600px;max-height:400px;">
    <!-- Slideshow -->
     <div class="w3-display-container mySlides2">
-          <img  src="files/VTOL_still.JPEG" style="width:600px;height:400px">
-            <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-              VTOl plane in-service. 
-            </div>
+          <video id="video" controls="" preload="none" poster="files/VTOL_still.jpg" width="600px" height="400px" autoplay muted>
+            <source id="mp4" src="files/VTOL.mp4" type="video/mp4" height="500px" width="700px">
+          </videos>
       </div>
    <div class="w3-display-container mySlides2">
       <img  src="files/tobacco2.png"  style="width:600px;height:400px">
