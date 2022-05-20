@@ -98,12 +98,14 @@ Innovation Startup
    </div>
 
    <div class="w3-display-container mySlides2">
-      <img class="mySlides" src="files/UAV_takeoff.mp4" style="width:600px; height:400px;">
+      <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg" src="files/UAV_takeoff.mp4" >
+      </video>
       <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
          Our first test tilt-rotor STOL airplane take off in campus. 
       </div>
-   </div>
-   
+   </div> 
+
+
    <div class="w3-display-container mySlides2">
       <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px; height:400px;">
       <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
@@ -132,16 +134,14 @@ Innovation Startup
      x[slideIndex-1].style.display = "block";  
    }
 </script>
-<video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
-<source id="mp4" src="UAV_takeoff.mp4" type="video/mp4" height="400px" width="600px">
-</videos>
+
 
 Competitions 
 ======
 * **National Champion** on 2015 ABU Asia-Pacific Robot Contest(Robocon)    
   * Badminton robot we build that can play well with humans.  
 
-  <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg">
+  <video id="video" controls="" preload="none" poster="files/badminton-robot_Moment.jpg" width="600px" height="400px" autoplay muted>
         <source id="mp4" src="files/badminton-robot.mp4" type="video/mp4" height="500px" width="700px">
   </videos>
 
