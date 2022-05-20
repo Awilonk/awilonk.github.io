@@ -110,8 +110,10 @@ Innovation Startup
         </div>
    </div>
     <div class="w3-display-container mySlides2">
-      <img  src="files/UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
-        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+      <video id="video" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg" width="600px" height="400px" autoplay muted>
+            <source id="mp4" src="files/UAV_takeoff.mp4" type="video/mp4" height="500px" width="700px">
+      </videos>        
+      <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
           Our first prototype tilt-rotor STOL airplane. 
         </div>
     </div>
