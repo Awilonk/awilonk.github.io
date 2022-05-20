@@ -101,7 +101,7 @@ Innovation Startup
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
             Almost the same as manual counting. 
         </div>
-   </div>
+   </div> 
 
    <div class="w3-display-container mySlides2">
       <img class="mySlides" src="files/YL-certifi.jpg" style="width:600px;height:400px">
