@@ -98,10 +98,11 @@ Innovation Startup
    </div>
 
    <div class="w3-display-container mySlides2">
-      <video id="video2" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg" src="files/UAV_takeoff.mp4" >
+      <video id="video2" class="mySlides" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg">
+        <source src="files/UAV_takeoff.mp4" type="video/mp4">
       </video>
       <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-         Our first test tilt-rotor STOL airplane take off in campus. 
+         Our first prototype tilt-rotor STOL airplane take off in campus. 
       </div>
    </div> 
 
@@ -149,7 +150,8 @@ Competitions
   <img class="mySlides" src="files/UAV-2015.jpg" style="width:600px; height:400px;">
  <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
     UAV completed the tasks of fixed-point take-off and landing, picking up items, and line patrol.
-  </div>
+  </div>  
+
 Publication
 ======
 Thesis
