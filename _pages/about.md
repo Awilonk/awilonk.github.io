@@ -110,24 +110,22 @@ Innovation Startup
         </div>
    </div>
     <div class="w3-display-container mySlides2">
-        <video id="video2" class="mySlides" controls="" preload="none" poster="files/UAV_takeoff_Moment.jpg" width="600px" height="400px">
-          <source src="files/UAV_takeoff.mp4" type="video/mp4">
-        </video>
+      <img class="mySlides" src="files/YL-UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-          Our first prototype tilt-rotor STOL airplane take off in campus. 
+          Our first prototype tilt-rotor STOL airplane. 
         </div>
     </div>
     
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    <div class="w3-center w3-display-bottommiddle" style="width:100%">
+</div>
+<div class="w3-center w3-display-bottommiddle" style="width:100%">
     <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
     <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
   </div> 
-</div>
 <script>
    var slideIndex = 1;
    showDivs(slideIndex);
