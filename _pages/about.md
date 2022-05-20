@@ -82,6 +82,20 @@ Innovation Startup
          Company got certified  "Certificate of conformity of high and new-tech enterprise. 
 
    --->
+     </div>
+      <div class="w3-display-container mySlides2">
+      <img  src="files/VTOL_still.JPEG" style="width:600px;height:400px">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+          VTOl plane in-service. 
+        </div>
+    </div>
+
+  <div class="w3-display-container mySlides2">
+      <img  src="files/UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+          Our first prototype tilt-rotor STOL airplane. 
+    </div>
+    
    <div class="w3-display-container mySlides2">
       <img  src="files/tobacco2.png"  style="width:600px;height:400px">
         <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
@@ -109,18 +123,8 @@ Innovation Startup
           Company got certified  "Certificate of conformity of high and new-tech enterprise.
         </div>
    </div>
-    <div class="w3-display-container mySlides2">
-      <img  src="files/UAV_takeoff_Moment.jpg" style="width:600px;height:400px">
-        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-          Our first prototype tilt-rotor STOL airplane. 
-        </div>
-    </div>
-      <div class="w3-display-container mySlides2">
-      <img  src="files/VTOL_still.JPEG" style="width:600px;height:400px">
-        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
-          VTOl plane in-service. 
-        </div>
-    </div>
+  
+  
    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
