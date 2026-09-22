@@ -1,0 +1,95 @@
+- id: TCASII
+  year: 2026
+  preprint: true
+  pinned: true
+  featured: true
+  title: "Disturbance-distribution learned Tube MPC for current-command gimbal pointing control"
+  venue: IEEE Transactions on Circuits and Systems II (under review), 2026
+  venue_short: TCAS-II · under review
+  description: "The disturbance distribution is learned and used to tighten Tube-MPC constraints online. On a two-axis current-command gimbal (Intel N100 + CAN, 100 Hz), the 2-D pointing RMSE is 3.94 mrad, about 47% lower than nominal MPC, with zero current-limit activations and a worst-case solve time of 4.5 ms."
+  image: pubs/tcasii.png
+  authors:
+    - yaokun
+    - etal
+
+- id: TAES
+  year: 2026
+  preprint: true
+  pinned: true
+  featured: true
+  title: "Model predictive control of airborne inertially stabilized platforms: A physics-informed and data-driven disturbance separation approach"
+  venue: IEEE Transactions on Aerospace and Electronic Systems (under review), 2026
+  venue_short: TAES · under review
+  description: "Periodic and non-periodic disturbances on an airborne inertially stabilized platform are separated with a physics-informed model and data-driven observers, then predicted and compensated inside MPC."
+  image: pubs/taes.png
+  authors:
+    - yaokun
+    - etal
+
+- id: ICCA
+  year: 2026
+  featured: true
+  title: "Active excitation through motion: Raptor-inspired attack separation control of airborne inertial stabilized platforms"
+  venue: 2026 IEEE 20th International Conference on Control and Automation (ICCA), pp. 105–110
+  venue_short: ICCA'26
+  awards:
+    - Oral presentation
+  description: "In staring mode, disturbances from different sources look like the same slow drift. Small aircraft maneuvers inside the field-of-view safety limits excite them, so they can be separated online and compensated separately."
+  image: pubs/icca.png
+  link_web: https://doi.org/10.1109/ICCA69928.2026.11618228
+  equal_contri: 2
+  corresponding_authors:
+    - dong
+    - kexin
+  authors:
+    - yaokun
+    - hao
+    - dong
+    - kexin
+    - jianzhong
+    - lei
+
+- id: Actuators
+  year: 2026
+  title: "Disturbance refined separation-based composite control for airborne electro-optical gimbals subject to pointing constraints"
+  venue: Actuators, 15(4), 197, 2026
+  venue_short: Actuators'26
+  description: "Composite control for airborne electro-optical gimbals that separates disturbances in finer detail while respecting pointing constraints."
+  image: pubs/actuators.png
+  link_web: https://doi.org/10.3390/act15040197
+  authors:
+    - jiaao
+    - yixuan
+    - yaokun
+    - hao
+    - pengwei
+    - jianzhong
+
+- id: TMECH
+  year: 2025
+  title: "Refined disturbance utilization-based green control for spacecraft with composite actuator disturbances"
+  venue: IEEE/ASME Transactions on Mechatronics, 30(6), 5652–5662, 2025
+  venue_short: TMECH'25
+  description: "Spacecraft attitude control that separates composite actuator disturbances and exploits the usable part instead of cancelling all of it."
+  image: pubs/tmech.png
+  link_web: https://doi.org/10.1109/TMECH.2025.3563132
+  authors:
+    - hao
+    - yaokun
+    - pengfei
+    - jianzhong
+    - lei
+
+- id: ICGNC
+  year: 2025
+  title: "Composite disturbance separation and utilization-based maneuver control for spacecrafts with reaction wheel errors"
+  venue: Proceedings of ICGNC 2024, Lecture Notes in Electrical Engineering, Springer, pp. 454–463, 2025
+  venue_short: ICGNC'24
+  description: "Maneuver control for spacecraft with reaction-wheel errors, based on separating composite disturbances and exploiting the usable part."
+  image: pubs/icgnc.png
+  link_web: https://doi.org/10.1007/978-981-96-2216-0_44
+  authors:
+    - hao
+    - yaokun
+    - jianzhong
+    - lei

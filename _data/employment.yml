@@ -1,0 +1,19 @@
+- company: National Champion (First Prize), ROBOCON 2015
+  description: "China's national university robot contest. Badminton robot; I was responsible for its vision system: high-speed stereo calibration, shuttlecock detection and Kalman-filter landing-point prediction."
+  dates: 2015
+
+- company: National Second Prize, National Undergraduate Electronic Design Contest
+  description: "Autonomous line-following UAV; I was responsible for its flight control (Hough-transform line detection, MAVLink communication with Pixhawk)."
+  dates: 2015
+
+- company: National Second Prize, National Undergraduate Optoelectronic Design Contest
+  description: "Non-contact measurement of objects with complex surfaces."
+  dates: 2014
+
+- company: Outstanding Newcomer Award, DiDi Chuxing
+  description: ""
+  dates: 2019
+
+- company: People's Scholarship (Second Class), UESTC; Graduate Academic Scholarship (First Class), UESTC
+  description: ""
+  dates: 2012 – 2019

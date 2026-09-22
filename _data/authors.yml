@@ -1,0 +1,35 @@
+yaokun:
+  first_name: Yaokun
+  last_name: Lu
+  website: https://awilonk.github.io/
+  is_me: true
+hao:
+  first_name: Hao
+  last_name: Teng
+dong:
+  first_name: Dong
+  last_name: Zhao
+kexin:
+  first_name: Kexin
+  last_name: Guo
+jianzhong:
+  first_name: Jianzhong
+  last_name: Qiao
+lei:
+  first_name: Lei
+  last_name: Guo
+pengfei:
+  first_name: Pengfei
+  last_name: Xia
+jiaao:
+  first_name: Jiaao
+  last_name: Wu
+yixuan:
+  first_name: Yixuan
+  last_name: Zhang
+pengwei:
+  first_name: Pengwei
+  last_name: Hu
+etal:
+  first_name: et
+  last_name: al.

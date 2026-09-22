@@ -1,0 +1,45 @@
+# Site template: keunhong.github.io (Keunhong Park), as adapted by jiajindou.github.io (Jindou Jia).
+# Licensed CC BY-SA 4.0. Content below is Yaokun Lu's.
+
+title: Yaokun Lu
+name: Yaokun Lu
+position: Ph.D. Student, Beihang University
+email: luyoakun@gmail.com
+description: >-
+  I am a Ph.D. student at the School of Automation Science and Electrical Engineering, **Beihang University (BUAA)**,
+  advised by Prof. Lei Guo (Academician, CAS) and Prof. Jianzhong Qiao.
+  I received my M.S. (2019) and B.S. (2016) from the University of Electronic Science and Technology of China (UESTC).
+
+
+  My research is on precise pointing of airborne electro-optical systems under disturbances and constraints:
+  multi-stage (aircraft, gimbal, fast-steering mirror) line-of-sight control with **learning-based Tube-MPC** and
+  **disturbance separation**, validated on a two-axis gimbal testbed I built. I also work on **joint aircraft–gimbal
+  coverage planning** for fixed-wing UAVs in non-uniform wind.
+
+
+  Before my Ph.D., I was a senior algorithm engineer at DiDi Chuxing for three years (ETA prediction, passenger
+  diversion and online dispatch models), a research assistant with Prof. Fei Gao at Zhejiang
+  University's Huzhou Institute for a year, and a flight-control intern at DJI. I founded a UAV company during my
+  master's study. I will graduate in June 2027 and am open to full-time positions from July 2027.
+
+baseurl: ""
+url: "https://awilonk.github.io"
+github_username: Awilonk
+orcid: 0009-0006-7187-1075
+google_scholar:
+google_analytics:
+goatcounter:
+visitor_worker_url:
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compact
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

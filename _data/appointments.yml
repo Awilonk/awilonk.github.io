@@ -1,0 +1,19 @@
+- name: Huzhou Institute of Zhejiang University
+  description: "Research assistant in Prof. Fei Gao's group. Motion planning and control for agile fixed-wing UAVs at high angles of attack; observability-optimal excitation trajectories for online parameter self-calibration; fixed-wing test platform and flight software. One patent application (CN117891275A)."
+  dates: 2022 – 2023
+
+- name: DiDi Chuxing
+  description: "Senior algorithm engineer, international business. ETA prediction under a 5 ms online inference budget; passenger diversion model (DeepFM + ESMM; A/B tests: GMV +0.85%, CR +0.26 pp); order dispatch, hotspot and subsidy scheduling models. Outstanding Newcomer Award; promoted during tenure."
+  dates: 2019 – 2022
+
+- name: Tencent AI Lab
+  description: "Research assistant, vision group. A lightweight QR-based nonlinear least-squares back-end for VINS, with half-precision support and ARM FPU acceleration on mobile devices."
+  dates: 2018 – 2019
+
+- name: Chengdu Yuanliu Automation Technology Co., Ltd.
+  description: "Founder and technical lead (founded Oct 2018). Flight software for a tilt-rotor VTOL and an aerial-survey system that counts tobacco seedlings and measures field area from SfM reconstruction and YOLO detection, delivered to a provincial tobacco company."
+  dates: 2018
+
+- name: DJI
+  description: "Flight-control intern. BSP/HAL embedded software for the A3 flight controller; a standard test procedure for barometer selection; ADS-B demo integration."
+  dates: 2015 – 2016

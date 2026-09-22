@@ -1,416 +1,290 @@
+---
+layout: null
+---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yaokun Lu (卢耀坤) | Beihang University — Fixed-wing UAV Autonomy</title>
-<meta name="description" content="Yaokun Lu (卢耀坤) is a Ph.D. student at Beihang University (BUAA), working on airborne electro-optical tracking: multi-stage line-of-sight pointing control, constraint-adaptive Tube-MPC, and gimbal-in-the-loop observation planning. Previously senior algorithm engineer at DiDi, UAV company founder, and flight-control intern at DJI. Open to full-time roles from July 2027.">
-<meta name="author" content="Yaokun Lu">
-<meta name="keywords" content="Yaokun Lu, 卢耀坤, luyaokun, Lu Yaokun, Beihang University, BUAA, fixed-wing UAV, gimbal observation planning, disturbance rejection control, autonomous landing">
-<link rel="canonical" href="https://awilonk.github.io/">
-<!-- Open Graph / social share -->
-<meta property="og:type" content="profile">
-<meta property="og:title" content="Yaokun Lu (卢耀坤) — Beihang University">
-<meta property="og:description" content="Ph.D. student at Beihang University. Fixed-wing UAV autonomy, gimbal observation planning, vision-based landing.">
-<meta property="og:url" content="https://awilonk.github.io/">
-<meta property="og:image" content="https://awilonk.github.io/assets/img/profile.jpg">
-<meta name="twitter:card" content="summary">
-<!-- Structured data: tells Google this page = the person Yaokun Lu -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Yaokun Lu",
-  "alternateName": ["卢耀坤", "Lu Yaokun", "luyaokun"],
-  "url": "https://awilonk.github.io/",
-  "image": "https://awilonk.github.io/assets/img/profile.jpg",
-  "jobTitle": "Ph.D. Student",
-  "affiliation": {
-    "@type": "CollegeOrUniversity",
-    "name": "Beihang University (BUAA)"
-  },
-  "knowsAbout": ["Fixed-wing UAV autonomy", "Gimbal observation planning", "Line-of-sight stabilization", "Model predictive control", "Disturbance-rejection control", "Vision-based autonomous landing", "Flight control systems"],
-  "seeks": {
-    "@type": "Demand",
-    "name": "Full-time positions starting July 2027 in flight control, gimbal stabilization, and motion planning and control"
-  },
-  "sameAs": [
-    "https://github.com/awilonk"
-  ]
-}
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --ink:#1c1e21;          /* main text */
-    --muted:#6b7280;        /* secondary text */
-    --line:#e7e9ee;         /* dividers */
-    --accent:#2f6df6;       /* links / accent */
-    --accent-soft:#eaf1ff;
-    --bg:#ffffff;
-    --card:#fbfbfd;
-    --maxw:820px;
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Yaokun Lu (卢耀坤) | Beihang University</title>
+
+  <meta name="description" content="Yaokun Lu (卢耀坤) is a Ph.D. student at Beihang University working on multi-stage line-of-sight pointing control of airborne electro-optical systems (learning-based Tube-MPC, disturbance separation) and joint aircraft–gimbal coverage planning for fixed-wing UAVs.">
+  <meta name="author" content="Yaokun Lu">
+  <meta name="keywords" content="Yaokun Lu, 卢耀坤, Beihang University, BUAA, gimbal pointing control, Tube-MPC, disturbance separation, fixed-wing UAV, coverage planning">
+  <link rel="canonical" href="{{ site.url }}/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Yaokun Lu (卢耀坤) | Beihang University">
+  <meta property="og:description" content="Ph.D. student at Beihang University: airborne line-of-sight pointing control and aircraft–gimbal coverage planning.">
+  <meta property="og:image" content="{{ '/images/profile.jpg' | absolute_url }}">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yaokun Lu",
+    "alternateName": ["卢耀坤", "Lu Yaokun"],
+    "url": "{{ site.url }}/",
+    "image": "{{ '/images/profile.jpg' | absolute_url }}",
+    "jobTitle": "Ph.D. Student",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Beihang University (BUAA)" },
+    "knowsAbout": ["Line-of-sight pointing control", "Model predictive control", "Tube-MPC", "Disturbance separation", "Fixed-wing UAV coverage planning", "Flight control"],
+    "sameAs": ["https://github.com/{{ site.github_username }}", "https://orcid.org/{{ site.orcid }}"]
   }
-  *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{
-    margin:0;background:var(--bg);color:var(--ink);
-    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
-    font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;
-  }
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  </script>
 
-  /* ---------- top nav ---------- */
-  nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.86);
-      backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--line)}
-  nav .wrap{display:flex;gap:20px;align-items:center;height:52px;font-size:14.5px}
-  nav .brand{font-weight:700;margin-right:auto}
-  nav a{color:var(--muted)}
-  nav a:hover{color:var(--ink);text-decoration:none}
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
 
-  /* ---------- header / hero ---------- */
-  header{padding:44px 0 8px}
-  .hero{display:flex;gap:30px;align-items:flex-start;flex-wrap:wrap}
-  .hero .photo{flex:0 0 168px}
-  .hero .photo img{width:168px;height:168px;object-fit:cover;border-radius:14px;
-      border:1px solid var(--line)}
-  .hero .intro{flex:1;min-width:280px}
-  .hero h1{font-size:30px;margin:2px 0 2px;letter-spacing:-.4px}
-  .hero .zh{color:var(--muted);font-size:17px;margin-bottom:12px}
-  .hero p{margin:10px 0}
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
+  <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/css/index.css' | relative_url }}?v={{ site.time | date: '%s' }}" rel="stylesheet">
 
-  .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
-  .links a{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;
-      padding:5px 12px;border:1px solid var(--line);border-radius:20px;
-      color:var(--ink);background:var(--card)}
-  .links a:hover{border-color:var(--accent);color:var(--accent);text-decoration:none;
-      background:var(--accent-soft)}
+  <link rel="icon" href="{{ '/images/ICON.png' | relative_url }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/images/ICON.png' | relative_url }}">
 
-  /* ---------- sections ---------- */
-  section{padding:30px 0;border-top:1px solid var(--line)}
-  h2{font-size:20px;margin:0 0 18px;display:flex;align-items:center;gap:9px}
-  h2 .emo{font-size:19px}
-
-  /* news */
-  .news{list-style:none;margin:0;padding:0}
-  .news li{display:flex;gap:14px;padding:7px 0;font-size:15px}
-  .news .date{flex:0 0 92px;color:var(--muted);font-variant-numeric:tabular-nums;font-size:14px}
-  .news .tag{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:5px;
-      background:var(--accent-soft);color:var(--accent);margin-right:6px;vertical-align:1px}
-
-  /* research */
-  .research{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .rcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
-  .rcard h3{margin:0 0 6px;font-size:15.5px}
-  .rcard p{margin:0;font-size:14px;color:var(--muted)}
-
-  /* publications */
-  .pub{display:flex;gap:18px;padding:16px 0;border-bottom:1px solid var(--line)}
-  .pub:last-child{border-bottom:0}
-  .pub .thumb{flex:0 0 150px;height:96px;border-radius:9px;overflow:hidden;
-      background:var(--accent-soft);border:1px solid var(--line);
-      display:flex;align-items:center;justify-content:center;color:var(--accent);font-size:12px}
-  .pub .thumb img{width:100%;height:100%;object-fit:cover}
-  .pub .meta{flex:1;min-width:0}
-  .pub .ptitle{font-weight:600;font-size:15.5px;margin:0 0 3px}
-  .pub .authors{font-size:14px;color:var(--muted);margin:0 0 3px}
-  .pub .authors .me{color:var(--ink);font-weight:600}
-  .pub .venue{font-size:13.5px;margin:0 0 6px}
-  .pub .venue em{color:var(--accent);font-style:normal;font-weight:600}
-  .pub .status{display:inline-block;font-size:11px;font-weight:600;padding:1px 8px;border-radius:5px;margin-left:6px}
-  .status.accepted{background:#e7f7ec;color:#1a7f3c}
-  .status.review{background:#fff3e0;color:#b26a00}
-  .pub .plinks a{font-size:13px;margin-right:12px}
-
-  /* patents */
-  .plist{list-style:none;margin:0;padding:0}
-  .plist li{padding:9px 0;border-bottom:1px solid var(--line);font-size:14.5px}
-  .plist li:last-child{border-bottom:0}
-  .plist .pt{font-weight:600}
-  .plist .pno{color:var(--muted);font-size:13px}
-
-  /* gallery */
-  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-  .gallery figure{margin:0}
-  .gallery .cell{aspect-ratio:4/3;border-radius:10px;overflow:hidden;border:1px solid var(--line);
-      background:var(--card);display:flex;align-items:center;justify-content:center;
-      color:var(--muted);font-size:12.5px;text-align:center;padding:6px}
-  .gallery .cell img{width:100%;height:100%;object-fit:cover}
-  .gallery figcaption{font-size:12.5px;color:var(--muted);margin-top:5px;text-align:center}
-  /* hardware platform grid */
-  .pgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
-  .pgrid figure{margin:0;grid-column:span 2}
-  .pgrid figure.wide{grid-column:span 6}
-  .pgrid figure.half{grid-column:span 3}
-  .pgrid img{width:100%;display:block;border-radius:10px;border:1px solid var(--line);background:var(--card)}
-  .pgrid figcaption{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
-  .pgrid figcaption b{color:var(--ink);font-weight:600}
-  /* result clips */
-  .vgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-  .vgrid figure{margin:0}
-  .vgrid video{width:100%;display:block;border-radius:10px;border:1px solid var(--line);background:#0b0d10}
-  .vgrid figcaption{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
-  .vgrid figcaption b{color:var(--ink);font-weight:600}
-  @media (max-width:640px){
-    .pgrid{grid-template-columns:repeat(2,1fr)}
-    .pgrid figure,.pgrid figure.wide,.pgrid figure.half{grid-column:span 2}
-    .vgrid{grid-template-columns:1fr}
-  }
-
-  footer{padding:30px 0 50px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;text-align:center}
-
-  @media (max-width:640px){
-    .research{grid-template-columns:1fr}
-    .gallery{grid-template-columns:repeat(2,1fr)}
-    nav .wrap{gap:14px;overflow-x:auto}
-    .hero .photo{flex-basis:120px}
-    .hero .photo img{width:120px;height:120px}
-  }
-</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
+  <script>window.VISITOR_WORKER_URL = "{{ site.visitor_worker_url }}";</script>
+  <script src="{{ '/js/index.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </head>
+
 <body>
 
-<nav>
-  <div class="wrap">
-    <span class="brand">Yaokun Lu</span>
-    <a href="#news">News</a>
-    <a href="#research">Research</a>
-    <a href="#pubs">Publications</a>
-    <a href="#patents">Patents</a>
-    <a href="#platforms">Platforms</a>
-    <a href="#gallery">Demos</a>
-  </div>
-</nav>
+  {% include nav.html active="home" %}
 
-<header>
-  <div class="wrap hero">
-    <div class="photo">
-      <!-- 把你的照片放到 assets/img/profile.jpg（缺失时自动降级为首字母块，不会出现裂图） -->
-      <img src="assets/img/profile.jpg" alt="Yaokun Lu"
-           onerror="this.remove();var p=document.querySelector('.photo');p.textContent='YL';p.style.cssText+=';display:flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent);font-size:44px;font-weight:700;letter-spacing:1px;'">
-    </div>
-    <div class="intro">
-      <h1>Yaokun Lu</h1>
-      <div class="zh">卢耀坤 · Ph.D. Student</div>
-      <p>
-        I am a Ph.D. student at <strong>Beihang University (BUAA)</strong>, advised by
-        Prof.&nbsp;Lei&nbsp;Guo (Academician, CAS) and Prof.&nbsp;Jianzhong&nbsp;Qiao.
-        My research is about giving small <strong>fixed-wing UAVs</strong> the autonomy to
-        <em>see and track</em> things on the ground: I plan the aircraft's flight and its
-        camera-gimbal motion <em>together</em> so a target stays in frame, and work on
-        disturbance-rejection control and vision-based autonomous landing.
-      </p>
-      <p style="color:var(--muted);font-size:14.5px">
-        Before my Ph.D. I spent three years as a <strong>senior algorithm engineer at DiDi Chuxing</strong>
-        (order dispatching, ETA prediction, large-scale online decision models), then a year as a
-        <strong>research assistant at Zhejiang University's Huzhou Institute</strong> with
-        Prof.&nbsp;Fei&nbsp;Gao, working on autonomous flight and trajectory planning. I also
-        <strong>founded a UAV company</strong> that delivered an aerial-survey crop-management system
-        to a provincial customer, and interned on the <strong>flight-control team at DJI</strong>
-        (BSP / HAL development, core repository access). M.S. (2019) and B.S. (2016) from UESTC.
-        National champion, <strong>ROBOCON 2015</strong>.
-      </p>
-      <p style="font-size:14.5px;background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;border-radius:6px;margin:16px 0">
-        <strong>Open to full-time positions starting July 2027</strong> — flight control,
-        gimbal / line-of-sight stabilization, motion planning &amp; control.
-      </p>
-      <div class="links">
-        <a href="mailto:luyoakun@gmail.com">✉ Email</a>
-        <a href="https://github.com/awilonk" target="_blank">💻 GitHub</a>
-        <!-- 待填后取消注释：
-        <a href="填你的 Google Scholar 链接" target="_blank">🎓 Google Scholar</a>
-        <a href="assets/cv.pdf" target="_blank">📄 CV</a>
-        -->
+  <section class="hero">
+    <div class="hero-body container is-max-desktop">
+      <div class="columns is-vcentered">
+
+        <div class="column is-3">
+          <div class="portrait">
+            <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Yaokun Lu" />
+          </div>
+        </div>
+
+        <div class="column">
+          <h1 class="title">
+            <b>Hello, I'm Yaokun Lu (卢耀坤)</b>
+          </h1>
+          <div class="content has-text-justified">
+            {{ site.description | markdownify }}
+            <div class="buttons">
+              <a class="external-link button is-light" href="mailto:{{ site.email }}">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span>Email</span>
+              </a>
+              <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>GitHub</span>
+              </a>
+              <a class="external-link button is-light" href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">
+                <span class="icon"><i class="ai ai-orcid"></i></span>
+                <span>ORCID</span>
+              </a>
+              <a class="external-link button is-light" href="{{ '/cv.html' | relative_url }}">
+                <span class="icon"><i class="fas fa-file-alt"></i></span>
+                <span>CV</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- News. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
     </div>
   </div>
-</header>
 
-<div class="wrap">
+  <section class="section">
+    <div class="container is-max-desktop">
 
-  <!-- ===================== NEWS ===================== -->
-  <section id="news">
-    <h2><span class="emo">📰</span> News</h2>
-    <ul class="news">
-      <li><span class="date">2026</span><span><span class="tag">paper</span>Conference paper accepted to <strong>ICCA 2026</strong> (IEEE Int. Conf. on Control and Automation).</span></li>
-      <li><span class="date">2026</span><span><span class="tag">submit</span>First-author manuscripts under review at <strong>IEEE TAES</strong>, <strong>IEEE TCAS-II</strong> and <strong>Chinese Journal of Aeronautics</strong>.</span></li>
-      <li><span class="date">2026</span><span><span class="tag">exp</span>Constraint-adaptive Tube-MPC validated on a two-axis gimbal testbed at 100&nbsp;Hz: <strong>3.94&nbsp;mrad</strong> 2-D LOS error, <strong>−47.4%</strong> vs. nominal MPC, zero current-constraint violations.</span></li>
-      <li><span class="date">2025.04</span><span><span class="tag">paper</span>Journal paper accepted to <strong>IEEE/ASME Transactions on Mechatronics</strong>.</span></li>
-      <li><span class="date">2025.01</span><span><span class="tag">patent</span>Filed a patent on fine pointing control for electro-optical tracking systems.</span></li>
-      <li><span class="date">2024</span><span><span class="tag">paper</span>Conference paper presented at <strong>ICGNC 2024</strong>.</span></li>
-      <li><span class="date">2023</span><span>Started my Ph.D. at Beihang University 🎉</span></li>
-    </ul>
-  </section>
+      <h2 class="title is-3">News</h2>
+      <div class="content">
+        <ul class="news-list">
+          {% for news in site.data.news %}
+          <li{% if forloop.index > 8 %} class="news-extra"{% endif %}>
+            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
+          </li>
+          {% endfor %}
+        </ul>
+        {% if site.data.news.size > 8 %}
+        <button type="button" class="news-toggle" aria-expanded="false">Show more</button>
+        {% endif %}
+      </div>
 
-  <!-- ===================== RESEARCH ===================== -->
-  <section id="research">
-    <h2><span class="emo">🧭</span> Research</h2>
-    <div class="research">
-      <div class="rcard">
-        <h3>Gimbal-in-the-loop observation planning</h3>
-        <p>Plan the aircraft trajectory and the camera-gimbal pointing at the same time, so a ground target stays inside the field of view while the plane keeps flying.</p>
-      </div>
-      <div class="rcard">
-        <h3>Fixed-wing UAV autonomy</h3>
-        <p>Trajectory generation and control for small fixed-wing drones — smooth, feasible flight paths under real aerodynamic and turn-rate limits.</p>
-      </div>
-      <div class="rcard">
-        <h3>Disturbance-rejection control</h3>
-        <p>Estimating and cancelling disturbances (wind, coupling, actuator errors) so the vehicle and the pod point where they should.</p>
-      </div>
-      <div class="rcard">
-        <h3>Vision-based autonomous landing</h3>
-        <p>Letting a fixed-wing aircraft recognise its own takeoff strip and land itself back visually — teach-and-repeat homing.</p>
-      </div>
     </div>
   </section>
 
-  <!-- ===================== PUBLICATIONS ===================== -->
-  <section id="pubs">
-    <h2><span class="emo">📚</span> Publications</h2>
-
-    <div class="pub">
-      <div class="thumb">TMECH</div>
-      <div class="meta">
-        <p class="ptitle">Refined Disturbance Utilization-Based Green Control for Spacecraft with Composite Actuator Disturbances</p>
-        <p class="authors">H. Teng, <span class="me">Y. Lu</span>, P. Xia, J. Qiao, L. Guo</p>
-        <p class="venue"><em>IEEE/ASME Transactions on Mechatronics</em>, 2025 <span class="status accepted">Accepted</span></p>
-        <p class="plinks"><a href="https://doi.org/10.1109/TMECH.2025.3563132" target="_blank">DOI</a></p>
-      </div>
+  <!-- Platforms. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
     </div>
-
-    <div class="pub">
-      <div class="thumb">ICGNC</div>
-      <div class="meta">
-        <p class="ptitle">Composite Disturbance Separation and Utilization-Based Maneuver Control for Spacecrafts with Reaction Wheel Errors</p>
-        <p class="authors">H. Teng, <span class="me">Y. Lu</span>, J. Qiao, L. Guo</p>
-        <p class="venue">Int. Conf. on Guidance, Navigation and Control (<em>ICGNC</em>), Springer, 2024</p>
-      </div>
-    </div>
-
-    <!-- 一作在投/在审：标题确认可公开后，逐条拆成独立卡片 -->
-    <div class="pub">
-      <div class="thumb">2026</div>
-      <div class="meta">
-        <p class="ptitle">Four first-author manuscripts on multi-stage pointing control and gimbal observation planning</p>
-        <p class="authors"><span class="me">Y. Lu</span>, J. Qiao, L. Guo, et al.</p>
-        <p class="venue">
-          <em>IEEE Trans. Aerospace and Electronic Systems</em> <span class="status review">Under review</span> &nbsp;·&nbsp;
-          <em>IEEE Trans. Circuits and Systems II</em> <span class="status review">Submitted</span> &nbsp;·&nbsp;
-          <em>Chinese Journal of Aeronautics</em> <span class="status review">Submitted</span> &nbsp;·&nbsp;
-          <em>ICCA 2026</em> <span class="status accepted">Accepted</span>
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== PATENTS ===================== -->
-  <section id="patents">
-    <h2><span class="emo">📝</span> Patents</h2>
-    <ul class="plist">
-      <li><span class="pt">基于轴间耦合动态的光电跟踪系统精细指向控制器</span> — 乔建忠, <b>卢耀坤</b>, 夏鹏飞. <span class="pno">申请中, 2025-01</span></li>
-      <li><span class="pt">一种无人机投掷起飞的轨迹跟踪方法</span> — 郑萱, 高飞, <b>卢耀坤</b>. <span class="pno">CN117891275A, 2024</span></li>
-    </ul>
-    <p style="font-size:13px;color:var(--muted);margin-top:8px">
-      Software copyright: multi-stage loop simulation platform for airborne electro-optical tracking systems.
-    </p>
-  </section>
-
-  <!-- ===================== GALLERY ===================== -->
-  <!-- ===================== HARDWARE PLATFORMS ===================== -->
-  <section id="platforms">
-    <h2><span class="emo">🚁</span> Hardware Platforms</h2>
-    <p style="margin:0 0 16px;color:var(--muted);font-size:14.5px">
-      Aircraft I build, instrument and fly — fixed-wing VTOL, multirotor carriers, and the
-      electro-optical gimbals they carry. Everything below is flight hardware, not renders.
-    </p>
-    <div class="pgrid">
-      <figure class="wide">
-        <img src="assets/img/hw/platforms.jpg" alt="Three UAV platforms in the lab">
-        <figcaption><b>Test fleet.</b> Left to right: gimballed quadrotor, fixed-wing VTOL with a
-          nose-mounted electro-optical pod, and a heavy-lift hexacopter carrying a gimbal and LiDAR.</figcaption>
-      </figure>
-      <figure class="half">
-        <img src="assets/img/hw/vtol.jpg" alt="Fixed-wing VTOL with electro-optical pod">
-        <figcaption><b>Fixed-wing VTOL.</b> Tilt/lift-rotor quad-plane with a two-axis gimbal under the
-          nose — the airframe behind the gimbal-in-the-loop observation planning work.</figcaption>
-      </figure>
-      <figure class="half">
-        <img src="assets/img/hw/hexa.jpg" alt="Heavy-lift hexacopter with gimbal and LiDAR">
-        <figcaption><b>Heavy-lift hexacopter.</b> Carrier for larger pods and a LiDAR unit; used as a
-          stable platform for pointing and stabilization tests.</figcaption>
-      </figure>
-      <figure class="wide">
-        <img src="assets/img/hw/quad.jpg" alt="Quadrotor with electro-optical gimbal">
-        <figcaption><b>Gimballed quadrotor.</b> Compact carrier for line-of-sight stabilization and
-          target-tracking experiments.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- ===================== DEMOS & RESULTS ===================== -->
-  <section id="gallery">
-    <h2><span class="emo">🎬</span> Demos &amp; Results</h2>
-
-    <figure style="margin:0 0 22px">
-      <video src="assets/video/gimbal_search.mp4" poster="assets/img/gimbal_poster.jpg"
-             autoplay loop muted playsinline controls preload="metadata"
-             style="width:100%;display:block;border-radius:10px;background:#000">
-      </video>
-      <figcaption style="font-size:13.5px;color:var(--muted);margin-top:8px">
-        <strong>Gimbal-in-the-loop coverage search over mountainous terrain.</strong>
-        A fixed-wing UAV plans its flight path and gimbal pointing jointly to keep sweeping the
-        ground below. Main view: 3-D terrain with the accumulated flight path; insets: nose-chase
-        camera and the gimbal's own point of view. Simulation, played back at ~40&times; real time.
-      </figcaption>
-    </figure>
-
-    <div class="vgrid">
-      <figure>
-        <video src="assets/video/los_stab.mp4" poster="assets/img/los_stab_poster.jpg"
-               autoplay loop muted playsinline preload="metadata"></video>
-        <figcaption><b>Line-of-sight stabilization.</b> Target spot held on the image plane while the
-          residual pointing error is tracked in milliradians alongside it.</figcaption>
-      </figure>
-      <figure>
-        <video src="assets/video/obsplan.mp4" poster="assets/img/obsplan_poster.jpg"
-               autoplay loop muted playsinline preload="metadata"></video>
-        <figcaption><b>Observation-station planning.</b> Path chosen over an observability field, with
-          observability and occlusion-risk histories tracked along the way.</figcaption>
-      </figure>
-      <figure>
-        <video src="assets/video/visibility.mp4" poster="assets/img/visibility_poster.jpg"
-               autoplay loop muted playsinline preload="metadata"></video>
-        <figcaption><b>Target visibility under terrain occlusion.</b> Side-by-side views of when the
-          line of sight survives the terrain and when it does not.</figcaption>
-      </figure>
-      <figure>
-        <video src="assets/video/mission.mp4" poster="assets/img/mission_poster.jpg"
-               autoplay loop muted playsinline preload="metadata"></video>
-        <figcaption><b>Mission phases and pointing budget.</b> Flight profile over terrain against the
-          accuracy each phase demands.</figcaption>
-      </figure>
-    </div>
-
-    <div class="gallery" style="margin-top:16px">
-      <figure><div class="cell"><img src="assets/img/sitl.png" alt="SITL" onerror="this.parentNode.textContent='Gazebo / ArduPilot SITL'"></div><figcaption>Gazebo · ArduPilot SITL</figcaption></figure>
-      <figure><div class="cell"><img src="assets/img/los.png" alt="LOS geometry" onerror="this.parentNode.textContent='吊舱视线几何'"></div><figcaption>Gimbal line-of-sight geometry</figcaption></figure>
-      <figure><div class="cell"><img src="assets/img/wind.png" alt="Wind field" onerror="this.parentNode.textContent='风场'"></div><figcaption>3-D wind field</figcaption></figure>
-    </div>
-  </section>
-
-</div>
-
-<footer>
-  <div class="wrap">
-    © 2026 Yaokun Lu · 卢耀坤 · Beihang University &nbsp;·&nbsp;
-    <a href="mailto:luyoakun@gmail.com">luyoakun@gmail.com</a>
   </div>
-</footer>
+
+  <section class="section platforms-section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Platforms</h2>
+      <p class="platforms-subtitle">Test rigs and aircraft I have built or integrated.</p>
+
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-image"><img src="{{ '/images/hardware/gimbal_testbed.png' | relative_url }}" alt="Two-axis gimbal on a 6-DOF motion platform"></div>
+          <div class="platform-venues">
+            <span class="venue-badge">Gimbal testbed (built)</span>
+            <a class="venue-badge venue-badge-preprint" href="#pub-TCASII">TCAS-II</a>
+          </div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-image"><img src="{{ '/images/hardware/x1200.png' | relative_url }}" alt="Compound-wing VTOL with a gimbal pod"></div>
+          <div class="platform-venues">
+            <span class="venue-badge">Compound-wing VTOL (built)</span>
+          </div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-image"><img src="{{ '/images/hardware/vtol.png' | relative_url }}" alt="Fixed-wing VTOL with a nose gimbal pod"></div>
+          <div class="platform-venues">
+            <span class="venue-badge">Fixed-wing VTOL</span>
+          </div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-image"><img src="{{ '/images/hardware/hexa.png' | relative_url }}" alt="Hexacopter with gimbal and LiDAR"></div>
+          <div class="platform-venues">
+            <span class="venue-badge">Hexacopter</span>
+          </div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-image"><img src="{{ '/images/hardware/quad.png' | relative_url }}" alt="Quadrotor with gimbal pod"></div>
+          <div class="platform-venues">
+            <span class="venue-badge">Quadrotor</span>
+          </div>
+        </div>
+      </div>
+      <p class="platforms-note">
+        The gimbal testbed puts a two-axis current-command gimbal on a 6-DOF motion platform that reproduces
+        aircraft base disturbances. The compound-wing (quad-plane) VTOL carries a belly-mounted gimbal pod with an
+        ArduPlane autopilot and a companion computer.
+      </p>
+    </div>
+  </section>
+
+  <!-- Publications. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">Selected Publications</h2>
+      <p class="publications-intro">
+        First-author work. <sup>*</sup> co-first author, <sup>&dagger;</sup> corresponding author.
+        <a class="publications-full-link" href="{{ '/publications.html' | relative_url }}">
+          All publications&nbsp;&rarr;
+        </a>
+      </p>
+
+      {% assign featured_list = site.data.publications | where: "featured", true %}
+      {% for publication in featured_list %}
+        {% include publication_block.html publication=publication %}
+      {% endfor %}
+
+    </div>
+  </section>
+
+  <!-- Demo. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="section demo-section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Demo</h2>
+      <figure class="demo-figure">
+        <video src="{{ '/images/video/gimbal_search.mp4' | relative_url }}" poster="{{ '/images/video/gimbal_poster.jpg' | relative_url }}"
+               autoplay loop muted playsinline controls preload="metadata"></video>
+        <figcaption>
+          <b>Joint aircraft–gimbal coverage search over mountainous terrain (simulation).</b>
+          The fixed-wing UAV plans its flight path and gimbal pointing together to sweep the ground below.
+          Main view: 3-D terrain and the flown path; insets: nose-chase camera and the gimbal's own view.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Talks & Awards. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="section talks-section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Talks &amp; Awards</h2>
+      <ul class="talks-list">
+        {% for talk in site.data.talks %}
+        <li class="talk-item">
+          <span class="talk-type talk-type-{{ talk.type | slugify }}">{{ talk.type }}</span>
+          <span class="talk-body">
+            {% if talk.link %}
+            <a class="talk-title" href="{{ talk.link }}" target="_blank" rel="noopener">{{ talk.title }}</a>
+            {% else %}
+            <span class="talk-title">{{ talk.title }}</span>
+            {% endif %}
+            <span class="talk-host">{{ talk.host }}</span>
+          </span>
+          <span class="talk-date">{{ talk.date }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content footer-links has-text-centered">
+        <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="external-link" href="https://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="external-link" href="https://orcid.org/{{ site.orcid }}">
+          <i class="ai ai-orcid"></i>
+        </a>
+      </div>
+      <p class="template-credit has-text-centered">
+        Website template from <a href="https://github.com/keunhong/keunhong.github.io">keunhong.github.io</a>,
+        adapted from <a href="https://github.com/JIAjindou/jiajindou.github.io">jiajindou.github.io</a>
+        (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>).
+      </p>
+    </div>
+  </footer>
 
 </body>
+
 </html>
