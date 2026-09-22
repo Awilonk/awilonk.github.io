@@ -133,7 +133,7 @@ layout: null
               {% assign is_cofirst = false %}
               {% if publication.equal_contri and forloop.index <= publication.equal_contri %}{% assign is_cofirst = true %}{% endif %}
               <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me or is_cofirst %}
+                {% if author_id == 'etal' %}et al.{% elsif author.is_me or is_cofirst %}
                 <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}{% if is_cofirst %}<sup>*</sup>{% endif %}{% if publication.corresponding_authors contains author_id %}<sup>†</sup>{% endif %}</a>{% if forloop.last == false %},{% endif %}
                 {% else %}
                 <a href="{{ author.website }}">{{ author.first_name | slice: 0 }}. {{ author.last_name }}{% if publication.corresponding_authors contains author_id %}<sup>†</sup>{% endif %}</a>{% if forloop.last == false %},{% endif %}
