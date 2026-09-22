@@ -981,3 +981,52 @@ html { scroll-behavior: smooth; }
     margin-top: 0.8em;
 }
 .template-credit a { color: #888; text-decoration: underline; }
+.demo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem 1.2rem;
+    margin-top: 1.6rem;
+}
+@media (max-width: 700px) {
+    .demo-grid { grid-template-columns: minmax(0, 1fr); }
+}
+.demo-card { margin: 0; }
+.demo-card video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    display: block;
+    border-radius: 10px;
+    background: #0b0d10;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
+}
+.demo-card figcaption {
+    color: #555;
+    font-size: 85%;
+    margin-top: 0.5em;
+    line-height: 1.45;
+}
+.demo-card figcaption b { color: #222; }
+.demo-tag {
+    display: inline-block;
+    font-family: 'Google Sans', 'Noto Sans', sans-serif;
+    font-size: 70%;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #1e3a5f;
+    border-radius: 0.35em;
+    padding: 0.15em 0.55em;
+    margin-right: 0.4em;
+    vertical-align: 0.1em;
+}
+.demo-tag-sim { background: #6b7280; }
+.demo-tag-flight { background: #0e7490; }
+.demo-tag-robot { background: #9a3412; }
+
+.demo-intro {
+    margin-top: 2rem;
+    color: #444;
+    font-size: 92%;
+}
