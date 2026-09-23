@@ -148,16 +148,16 @@ layout: null
 
       <div class="platforms-grid">
         <div class="platform-card">
-          <div class="platform-image"><img src="{{ '/images/hardware/gimbal_testbed.png' | relative_url }}" alt="Two-axis gimbal on a 6-DOF motion platform"></div>
+          <div class="platform-image"><img src="{{ '/images/hardware/gimbal_testbed.jpg' | relative_url }}" alt="Gimbal testbed: two-axis gimbal on a 6-DOF motion platform, with the tracking display"></div>
           <div class="platform-venues">
-            <span class="venue-badge">Gimbal testbed (built)</span>
+            <span class="venue-badge">Gimbal testbed</span>
             <a class="venue-badge venue-badge-preprint" href="#pub-TCASII">TCAS-II</a>
           </div>
         </div>
         <div class="platform-card">
           <div class="platform-image"><img src="{{ '/images/hardware/x1200.png' | relative_url }}" alt="Compound-wing VTOL with a gimbal pod"></div>
           <div class="platform-venues">
-            <span class="venue-badge">Compound-wing VTOL (built)</span>
+            <span class="venue-badge">Compound-wing VTOL</span>
           </div>
         </div>
         <div class="platform-card">
@@ -234,27 +234,21 @@ layout: null
         </figcaption>
       </figure>
 
-      <p class="demo-intro">
-        <b>Bridge-inspection flight tests (2026).</b> Jiangsu Communications Holding challenge track, team led by
-        Prof. Jianzhong Qiao. I work on the onboard system integration, coverage-planning simulation and under-bridge flight tests.
-      </p>
+      <figure class="demo-figure demo-second">
+        <video class="lazy-video" data-src="{{ '/images/video/bridge_tests.mp4' | relative_url }}" poster="{{ '/images/video/bridge_tests_poster.jpg' | relative_url }}"
+               loop muted playsinline preload="none"></video>
+        <figcaption>
+          <span class="demo-tag demo-tag-flight">Flight tests</span>
+          <b>Bridge inspection beneath a highway viaduct (2026).</b>
+          Jiangsu Communications Holding challenge track, team led by Prof. Jianzhong Qiao; I work on the onboard
+          system integration, coverage-planning simulation and under-bridge flight tests. Clockwise from top left:
+          autonomous orbit around a pier with no satellite fix, the inset showing the live LiDAR map and trajectory (1.5&times;);
+          onboard camera along the pier corridor (2&times;); Gaussian-splatting reconstruction of the space under the deck;
+          replay of a full-coverage sortie — the flown path on the LiDAR map, with each photo and its detected defects (6&times;).
+        </figcaption>
+      </figure>
+
       <div class="demo-grid">
-        <figure class="demo-card">
-          <video class="lazy-video" data-src="{{ '/images/video/pier_orbit.mp4' | relative_url }}" poster="{{ '/images/video/pier_orbit_poster.jpg' | relative_url }}" loop muted playsinline preload="none"></video>
-          <figcaption><span class="demo-tag demo-tag-flight">Flight</span><b>Autonomous pier orbit with no satellite fix.</b> The drone circles a pier beneath a highway viaduct; the inset shows the live LiDAR map and trajectory. 1.5&times; speed.</figcaption>
-        </figure>
-        <figure class="demo-card">
-          <video class="lazy-video" data-src="{{ '/images/video/pod_view.mp4' | relative_url }}" poster="{{ '/images/video/pod_view_poster.jpg' | relative_url }}" loop muted playsinline preload="none"></video>
-          <figcaption><span class="demo-tag demo-tag-flight">Flight</span><b>Onboard view under the bridge.</b> Camera footage from a low flight along the pier corridor. 2&times; speed.</figcaption>
-        </figure>
-        <figure class="demo-card">
-          <video class="lazy-video" data-src="{{ '/images/video/inspection_replay.mp4' | relative_url }}" poster="{{ '/images/video/inspection_replay_poster.jpg' | relative_url }}" loop muted playsinline preload="none"></video>
-          <figcaption><span class="demo-tag demo-tag-flight">Flight data</span><b>Full-coverage inspection sortie.</b> The flown serpentine path on the LiDAR map of the bridge underside, with each photo and its detected defects shown as it is taken. 6&times; speed.</figcaption>
-        </figure>
-        <figure class="demo-card">
-          <video class="lazy-video" data-src="{{ '/images/video/gs_recon.mp4' | relative_url }}" poster="{{ '/images/video/gs_recon_poster.jpg' | relative_url }}" loop muted playsinline preload="none"></video>
-          <figcaption><span class="demo-tag demo-tag-flight">Reconstruction</span><b>3-D Gaussian-splatting reconstruction.</b> Rendered views of the space beneath the viaduct, reconstructed from onboard video and scaled with the LiDAR point cloud.</figcaption>
-        </figure>
         <figure class="demo-card">
           <video class="lazy-video" data-src="{{ '/images/video/coverage_plan_sim.mp4' | relative_url }}" poster="{{ '/images/video/coverage_plan_sim_poster.jpg' | relative_url }}" loop muted playsinline preload="none"></video>
           <figcaption><span class="demo-tag demo-tag-sim">Simulation</span><b>Under-bridge coverage planning.</b> Viewpoints and a path wrap the deck and piers of a bridge model; the camera-covered area accumulates in green. 1.5&times; speed.</figcaption>
